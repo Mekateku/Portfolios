@@ -63,7 +63,7 @@ def main():
     with col1:
         st.write(' ')
     with col2:
-        st.image(r"images/Me.jpg", caption="Self Portrait", use_column_width=True)
+        st.image("Me.jpg", caption="Self Portrait", use_column_width=True)
     with col3:
         st.write(' ')
 
@@ -81,11 +81,11 @@ def main():
 
         col1, col2, col3 = st.columns(3)
         with col1:
-            st.image(r"images/login.png", caption="Login Page", use_column_width=True)
+            st.image("login.png", caption="Login Page", use_column_width=True)
         with col2:
-            st.image(r"images/contentManager.png", caption="Content Manager Page", use_column_width=True)
+            st.image("contentManager.png", caption="Content Manager Page", use_column_width=True)
         with col3:
-            st.image(r"images/analytics.png", caption="Analytics Page", use_column_width=True)
+            st.image("analytics.png", caption="Analytics Page", use_column_width=True)
 
     st.markdown("---")  # Horizontal line for separation
 
